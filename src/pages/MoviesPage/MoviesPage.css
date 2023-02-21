@@ -1,0 +1,90 @@
+.container {
+    background-color: black;
+}
+
+.movies {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    gap: 10px;
+    height: calc(100vh - 160px);
+    overflow: hidden;
+    overflow-y: auto;
+    margin-left: 5%;
+    /*margin: 0 auto;*/
+
+}
+
+.movies::-webkit-scrollbar {
+    width: 0;
+}
+
+.pagin {
+    margin-left: 35%;
+}
+
+.header {
+    height: 100px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.footer {
+    height: 50px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    column-gap: 10px;
+}
+
+.footer button {
+    width: 150px;
+    border-radius: 5px;
+    border: groove;
+}
+
+.goto {
+    margin-left: 5%;
+}
+
+.name {
+    background: yellow;
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.last5{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    position: absolute;
+    top: 115px;
+    left: 80%;
+    width: 250px;
+    height: 81%;
+
+}
+.last5cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}

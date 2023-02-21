@@ -1,0 +1,31 @@
+.actormain::-webkit-scrollbar {
+    width: 0;
+}
+
+.actormain {
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.actorgeneral {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    column-gap: 20px;
+}
+
+.backhome {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: 75px;
+    border-radius: 5px;
+    border: groove;
+}
+
+.bio {
+    font-size: 15px;
+}

@@ -1,0 +1,10 @@
+.actorcard {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}

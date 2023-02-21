@@ -1,0 +1,21 @@
+.favmain {
+    background: black;
+    min-height: 100vh;
+    color: white;
+
+}
+
+.favcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.favtitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
